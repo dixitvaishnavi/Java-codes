@@ -1,0 +1,16 @@
+class GfG{
+    static void swapNumbers(int m, int n ){
+        int temp=0;
+       temp=m;
+       m=n;
+       n=temp;
+        System.out.println(m+" "+n);
+        
+    }
+    public static void main(String[] args)
+    {
+        int m=90;
+        int n=20;
+        swapNumbers(m,n);
+    }
+}
